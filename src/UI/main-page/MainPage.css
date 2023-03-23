@@ -1,0 +1,12 @@
+.wraper {
+  border: 6px solid;
+  border-radius: 10% 30% 50% 80%;
+  overflow: hidden;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 7px 29px 0px;
+}
+
+.avatar {
+  -webkit-filter: grayscale(65%);
+  filter: grayscale(25%);
+  width: 100%;
+}

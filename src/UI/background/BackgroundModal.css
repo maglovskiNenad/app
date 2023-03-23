@@ -1,0 +1,64 @@
+.overlay-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 20;
+  background-color: #121212;
+}
+
+.border-style {
+  border-style: solid;
+  border-width: 3px;
+  border-image: linear-gradient(45deg, #0d8b04, #ffe24f) 50;
+}
+
+.text-wraper {
+  height: 100%;
+}
+
+.animated-text {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  word-break: break-all;
+}
+
+.text-style {
+  font-family: "Sono", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.typewriter {
+  width: 21.5ch;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 4px solid #212121;
+  animation: cursor 1s step-start infinite, text 2s steps(69) alternate infinite;
+  color: white;
+}
+
+@keyframes cursor {
+  0%,
+  100% {
+    border-color: #212121;
+  }
+}
+
+@keyframes text {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 27.5ch;
+  }
+}

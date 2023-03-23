@@ -1,0 +1,14 @@
+.background {
+  position: relative;
+  top: 5rem;
+  padding-bottom: 6rem;
+}
+
+.accordion-wraper {
+  margin: auto;
+  width: 80%;
+}
+
+.col-sm-6 {
+  margin: auto;
+}
