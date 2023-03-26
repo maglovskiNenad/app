@@ -47,3 +47,8 @@
     transform: scale(1.03);
   }
 }
+
+.my-middle-name {
+  font-size: 1.5rem;
+  margin: auto;
+}

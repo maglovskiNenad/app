@@ -40,8 +40,8 @@ const MainNavbar = () => {
             </Link>
           </Nav>
           <Nav>
-            <Nav.Link eventKey={2} href="#memes">
-              neka putanja
+            <Nav.Link eventKey={2} href="/home">
+              <p className="my-middle-name">Maglovski</p>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

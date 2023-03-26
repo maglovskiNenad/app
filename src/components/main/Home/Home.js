@@ -1,5 +1,7 @@
 import React from "react";
+
 import MainPage from "../../../UI/main-page/MainPage";
+import DescriptionPage from "./description/DescriptionPage";
 
 import "./Home.css";
 
@@ -9,9 +11,9 @@ const Home = () => {
       <div className="background">
         <div className="accordion-wraper">
           <div className={"row"}>
-            <div className={"col-sm-6"}>
+            <div className={"col-sm-5"}>
               <div className="text-presentation">
-                <p>Hey I am Front-end Developer</p>
+                <DescriptionPage />
               </div>
             </div>
             <div className={"col-sm-6"}>
